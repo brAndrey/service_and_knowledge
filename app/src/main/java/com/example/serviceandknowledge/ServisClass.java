@@ -46,6 +46,6 @@ public class ServisClass {
     /*
     long time= System.currentTimeMillis();
      Log.i(" loadWeather ",cityName+ " Считали за "+String.valueOf(System.currentTimeMillis()-time)+" миисекунд");
-     
+
      */
 }
