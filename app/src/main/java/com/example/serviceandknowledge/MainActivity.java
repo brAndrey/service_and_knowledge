@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.orientation_fragments.OrientationFragmentsActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -23,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void AsyncTask(View view) {
         Intent intent = new Intent(MainActivity.this, AsyncTaskActivity.class);
+        startActivity(intent);
+    }
+
+    public void OrientationFragment(View view) {
+        Intent intent = new Intent(MainActivity.this, OrientationFragmentsActivity.class);
         startActivity(intent);
     }
 }

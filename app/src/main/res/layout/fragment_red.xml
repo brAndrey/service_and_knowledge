@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <TextView
+        android:id="@+id/textViewRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="textViewRed"
+        android:gravity="center_horizontal|center_vertical"/>
+</RadioGroup>
