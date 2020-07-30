@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RxLessonActivity">/</activity>
-        <activity android:name=".AsyncTaskActivity"/>
-<activity android:name="com.example.orientation_fragments.OrientationFragmentsActivity"/>
+        <activity android:name=".AsyncTaskActivity" />
+        <activity android:name="com.example.orientation_fragments.OrientationFragmentsActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.serviceandknowledge;
+package com.screen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.orientation_fragments.OrientationFragmentsActivity;
+import com.example.serviceandknowledge.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     public void RxLesson(View view) {
         Intent intent = new Intent(MainActivity.this, RxLessonActivity.class);
         startActivity(intent);
-
-
     }
 
     public void AsyncTask(View view) {
@@ -32,4 +31,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, OrientationFragmentsActivity.class);
         startActivity(intent);
     }
+
+
 }
