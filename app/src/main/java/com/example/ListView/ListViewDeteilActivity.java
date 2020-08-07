@@ -3,9 +3,19 @@ package com.example.ListView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.webkit.WebView;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.webkit.WebView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.serviceandknowledge.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

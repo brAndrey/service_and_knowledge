@@ -1,0 +1,5 @@
+Для формирования класса BuildConfig достаточно написать его упоминание и нажать Alt + Enter
+
+Для дополнения параметрами класса через build.gradle( Module ) добавляем строки по типу:
+
+ buildConfigField "String", "API_ENDPOINT", '"http://api.openweathermap.org/"'

@@ -1,4 +1,4 @@
-package com.screen;
+package com.example.serviceandknowledge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.orientation_fragments.OrientationFragmentsActivity;
-import com.example.serviceandknowledge.R;
 
 public class MainActivity extends AppCompatActivity {
 
