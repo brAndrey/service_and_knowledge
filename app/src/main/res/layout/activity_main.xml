@@ -31,11 +31,31 @@
         android:id="@+id/OrientationFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OrientationFragment"
         android:onClick="OrientationFragment"
+        android:text="Orientation Fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AsyncTask" />
+
+    <Button
+        android:id="@+id/RecyclerViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RecyclerViewActivity"
+        android:text="Recycler View Activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrientationFragment" />
+
+    <Button
+        android:id="@+id/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:onClick="ListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecyclerViewActivity" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

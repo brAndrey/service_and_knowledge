@@ -2,6 +2,9 @@ package com.example.serviceandknowledge;
 
 // нужен для java
 import io.reactivex.Observable;
+import io.reactivex.Observer;
+import io.reactivex.disposables.Disposable;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -55,12 +58,34 @@ public class RxLessonActivity extends AppCompatActivity {
 
     public void Rx(View view) {
         long time= System.currentTimeMillis();
-        {
-            Observable<String> source =
-                    Observable.just("Testing", "One", "Two", "Three");
-            source.subscribe(s -> Log.e("TAG", "RECEIVED: " + s));
 
-        }
+            Observable<String> source = Observable.just("Testing", "One", "Two", "Three");
+
+        source.subscribe(stringElement -> Log.e("TAG", "RECEIVED: " + stringElement),
+                         error -> Log.e("TAG", "Throwable: " + error));
+
+//        source.subscribe(new Observer<String>() {
+//                             @Override
+//                             public void onSubscribe(Disposable d) {
+//                             }
+//
+//                             @Override
+//                             public void onNext(String stringElement) {
+//                                 Log.e("TAG", "RECEIVED: " + stringElement);
+//                             }
+//
+//                             @Override
+//                             public void onError(Throwable error) {
+//                                 Log.e("TAG", "Throwable: " + error);
+//                             }
+//
+//                             @Override
+//                             public void onComplete() {
+//                             }
+//                         }
+//
+//        );
+
         Log.i(" Rx time "," cчитали за "+ (System.currentTimeMillis() - time) +" миисекунд");
     }
 

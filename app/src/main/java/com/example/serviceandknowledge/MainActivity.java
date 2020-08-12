@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.ListView.ListViewActivity;
+import com.example.RecyclerView.RecyclerViewActivity;
 import com.example.orientation_fragments.OrientationFragmentsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,4 +34,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void RecyclerViewActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void ListView(View view) {
+        Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+        startActivity(intent);
+    }
 }

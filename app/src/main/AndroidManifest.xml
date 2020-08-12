@@ -20,7 +20,9 @@
         <activity android:name=".RxLessonActivity"></activity>
         <activity android:name=".AsyncTaskActivity"></activity>
         <activity android:name="com.example.orientation_fragments.OrientationFragmentsActivity"></activity>
-
+        <activity android:name="com.example.RecyclerView.RecyclerViewActivity"></activity>
+        <activity android:name="com.example.ListView.ListViewActivity"></activity>
+        <activity android:name="com.example.ListView.ListViewDeteilActivity"></activity>
     </application>
 
 </manifest>
