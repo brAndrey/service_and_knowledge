@@ -57,5 +57,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/RecyclerViewActivity" />
 
+    <Button
+        android:id="@+id/CatsGreenDao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cats Green Dao"
+        android:onClick="CatsGreenDao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

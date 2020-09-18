@@ -4,6 +4,7 @@
     package="com.example.serviceandknowledge">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,6 +24,7 @@
         <activity android:name="com.example.RecyclerView.RecyclerViewActivity"></activity>
         <activity android:name="com.example.ListView.ListViewActivity"></activity>
         <activity android:name="com.example.ListView.ListViewDeteilActivity"></activity>
+        <activity android:name="com.example.GreenDao.screen.CatsGreenDaoActivity"></activity>
     </application>
 
 </manifest>

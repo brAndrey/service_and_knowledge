@@ -34,6 +34,7 @@ public class AsyncTaskActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                // запускаем класс содержащий AsunkTask
                 new ProgressTask().execute();
             }
         });

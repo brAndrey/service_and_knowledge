@@ -1,0 +1,3 @@
+
+приём отправляющий в лог имя метода , поток и текущее время в милисекундах
+ Log.d(TAG, " "+ new Throwable().getStackTrace()[0].getMethodName() +"  "+ Thread.currentThread().getName()+" "+System.currentTimeMillis());

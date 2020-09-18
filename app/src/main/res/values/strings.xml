@@ -2,4 +2,5 @@
     <string name="app_name">service and knowledge</string>
     <string name="app_name2">orientation_fragments</string>
     <string name="buttonActivityStr">Кнопка активности</string>
+    <string name="action_settings">Settings</string>
 </resources>

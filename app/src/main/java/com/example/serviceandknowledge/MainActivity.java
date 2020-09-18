@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.GreenDao.screen.CatsGreenDaoActivity;
 import com.example.ListView.ListViewActivity;
 import com.example.RecyclerView.RecyclerViewActivity;
 import com.example.orientation_fragments.OrientationFragmentsActivity;
@@ -41,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void ListView(View view) {
         Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void CatsGreenDao(View view) {
+        Intent intent = new Intent(MainActivity.this, CatsGreenDaoActivity.class);
         startActivity(intent);
     }
 }
